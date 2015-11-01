@@ -1,0 +1,5 @@
+(define (half a b c)
+  (/ (+ a b c) 2))
+(define (area a b c)
+  (define p (half a b c))
+  (sqrt (* p (- p a) (- p b) (- p c))))
