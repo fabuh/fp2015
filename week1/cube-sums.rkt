@@ -7,6 +7,6 @@
     [else #f]))
 (define (cube-sums? n)
   (if(cube-sums-helper n 1 n)
-     1
-     0))
+     #t
+     #f))
 ;cool i used it before i knew about it
